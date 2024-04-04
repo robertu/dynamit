@@ -1,0 +1,2 @@
+# dynamit
+Dynamic Admin (django)
