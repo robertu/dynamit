@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dynamit"
+version = "0.1.0"
+description = "Dynamic Django Admin"
+authors = ["Robert Urbańczyk <robertu@robertu.net>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^5.0.3"
+whitenoise = "^6.6.0"
+django-extensions = "^3.2.3"
+tqdm = "^4.66.2"
+ordered-set = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
